@@ -1,0 +1,28 @@
+#admin-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3vw;
+  align-items: center;
+}
+
+#admin-page > div {
+  margin: 30px 0;
+}
+
+#admin-page ul,
+#admin-page ol {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+#admin-page .to-add-ther,
+#admin-page .to-add-mov {
+  width: 50%;
+}
+
+#admin-page .to-view-ther,
+#admin-page .to-view-bookings {
+  width: 80%;
+}

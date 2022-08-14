@@ -1,0 +1,26 @@
+#booking-page {
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#booking-page > div {
+  margin-bottom: 50px;
+}
+
+#booking-page h1,
+#booking-page p {
+  margin: 0;
+}
+
+#booking-page .thr-btns {
+  /* background-color: aqua; */
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+#booking-page .thr-btns button {
+  width: 80%;
+  margin: 0 auto;
+}

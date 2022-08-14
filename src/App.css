@@ -1,0 +1,9 @@
+:root {
+  --header-height: 9vh;
+  --footer-height: 18vh;
+}
+.App > div {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  width: 100%;
+  overflow-x: hidden;
+}

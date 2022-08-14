@@ -1,0 +1,14 @@
+#search-page {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 20vw;
+  /* justify-content: space-evenly; */
+}
+
+#search-page .result-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 30px;
+  margin: 50px 0;
+}

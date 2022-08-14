@@ -1,0 +1,18 @@
+#login-page {
+  /* padding: 0 40vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login-page #login-form {
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 25vw;
+}
+
+#login-page > a {
+  margin-top: 20px;
+  color: rgb(100, 0, 0) !important;
+}
