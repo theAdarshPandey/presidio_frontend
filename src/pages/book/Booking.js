@@ -49,7 +49,7 @@ export default function Booking() {
 
   useEffect(() => {
     // console.log("----", getBdata);
-    setSeatsAva(60 - (getBdata?.bookings?.data?.length || 61));
+    setSeatsAva(60 - (getBdata?.bookings?.data?.length));
   }, [getBdata]);
 
   return (
@@ -74,7 +74,7 @@ export default function Booking() {
           <strong>Theatre selected: {tID == 0 ? "None" : tID}</strong>
         </p>
         <p>
-          <strong>Seats Available: {seatsAva == -1 ? "N/A" : seatsAva}</strong>
+          <strong>Seats Available: {seatsAva < 0  ? "N/A" : seatsAva}</strong>
         </p>
         <span>Select Theatre: </span>
         <div className="thr-btns">
